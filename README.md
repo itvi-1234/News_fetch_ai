@@ -25,13 +25,13 @@ Error Recovery           | Intelligent retry mechanisms for network issues.  | F
 
 ## 🧠 AI Text Enhancement
 
-Core Capability           ✅ News Fetch AI's Approach                         ❌ Basic AI Paraphrasing Tools
--------------------------------------------------------------------------------------------------------------
-AI Model                  Uses a powerful, custom-tuned model (Groq's DeepSeek).  Often relies on generic, less performant models.
-Language Support          Optimized for high-quality, fluent Hindi paraphrasing. Struggles with nuance and context in Hindi.
-Content Expansion         Enhances and expands content while removing noise.     Simply rephrases sentences without adding value.
-Context Preservation      Maintains the original meaning and tone of the article. Can alter the core message during regeneration.
-Efficiency & Speed        Utilizes Groq's high-speed inference for fast results.  Slower processing times due to less optimized hardware.
+Core Capability         |  ✅ News Fetch AI's Approach                        | ❌ Basic AI Paraphrasing Tools|
+-------------------------|-------------------------------------------------------|-----------------------------|
+AI Model                 | Uses a powerful, custom-tuned model (Groq's DeepSeek). | Often relies on generic,less performant.|
+Language Support         | Optimized for high-quality, fluent Hindi paraphrasing.| Struggles with nuance and context in Hindi.|
+Content Expansion        | Enhances and expands content while removing noise.   |  Simply rephrases sentences without adding value.|
+Context Preservation     | Maintains the original meaning and tone of the article.| Can alter the core message during regeneration.|
+Efficiency & Speed       | Utilizes Groq's high-speed inference for fast results. | Slower processing times due to less optimized hardware.|
 
 
 ## 🏗️ Project Structure
