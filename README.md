@@ -15,13 +15,13 @@ An intelligent news scraping and lead generation tool that extracts news article
 
 ## 📰 Data Scraping & Extraction
 
-Feature                   ✅ News Fetch AI                                   ❌ Traditional Scrapers
-----------------------------------------------------------------------------------------------------------
-Multi-Source Support      Supports multiple Indian newspapers.               Often limited to a single website.
-Duplicate Prevention      Intelligent deduplication based on multiple keys.  Manual cleanup is required to remove duplicates.
-Data Points Extracted     Extracts headline, summary, area, and URL.         Limited to 1–2 data points.
-Dynamic Content Handling  Waits for content to load, ensuring reliability.   Fails to capture content loaded via JavaScript.
-Error Recovery            Intelligent retry mechanisms for network issues.   Fails on the first error, requiring manual restart.
+Feature                  | ✅ News Fetch AI                                 |  ❌ Traditional Scrapers|
+-------------------------|--------------------------------------------------|-------------------------------|
+Multi-Source Support     | Supports multiple Indian newspapers.              | Often limited to a single website.|
+Duplicate Prevention     | Intelligent deduplication based on multiple keys. | Manual cleanup is required to remove duplicates.|
+Data Points Extracted    | Extracts headline, summary, area, and URL.        | Limited to 1–2 data points.|
+Dynamic Content Handling | Waits for content to load, ensuring reliability.  | Fails to capture content loaded via JavaScript.|
+Error Recovery           | Intelligent retry mechanisms for network issues.  | Fails on the first error|
 
 ## 🧠 AI Text Enhancement
 
