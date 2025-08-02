@@ -16,7 +16,7 @@ def write_to_csv(leads , filename):
     """
 
     if not leads:
-        print("❌ No leads to save")
+        print("No leads to save")
         return
     
     # Read existing venue keys (name + phone) to avoid duplicates
@@ -62,7 +62,7 @@ def write_to_csv(leads , filename):
 
             writer.writerow(row)
 
-    print(f"✅ Appended {len(new_unique_leads)} new unique leads to '{filename}'")
+    print(f"Appended {len(new_unique_leads)} new unique leads to '{filename}'")
 
     print("Regerating the file")
 

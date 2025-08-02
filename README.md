@@ -1,8 +1,8 @@
-# 🚀 NEWS FETCH AI
+# NEWS FETCH AI
 
 An intelligent news scraping and lead generation tool that extracts news articles from popular Indian newspapers and enhances them using AI-powered text regeneration.
 
-## ✨ Features
+## Features
 
 - **Multi-Source Scraping**: Supports Dainik Bhaskar and Amar Ujala newspapers
 - **Smart Duplicate Detection**: Prevents duplicate entries using headline, summary, and area combinations
@@ -11,11 +11,11 @@ An intelligent news scraping and lead generation tool that extracts news article
 - **CSV Export**: Organized data export with regenerated content
 - **Automated Browser Control**: Selenium-based web scraping with ChromeDriver management
 
-## 🌟 Why NEWS FETCH AI Stands Out from basic scrappers
+## Why NEWS FETCH AI Stands Out from basic scrappers
 
-## 📰 Data Scraping & Extraction
+## Data Scraping & Extraction
 
-Feature                  | ✅ News Fetch AI                                 |  ❌ Traditional Scrapers|
+Feature                  | News Fetch AI                                 |  Traditional Scrapers|
 -------------------------|--------------------------------------------------|-------------------------------|
 Multi-Source Support     | Supports multiple Indian newspapers.              | Often limited to a single website.|
 Duplicate Prevention     | Intelligent deduplication based on multiple keys. | Manual cleanup is required to remove duplicates.|
@@ -23,9 +23,9 @@ Data Points Extracted    | Extracts headline, summary, area, and URL.        | L
 Dynamic Content Handling | Waits for content to load, ensuring reliability.  | Fails to capture content loaded via JavaScript.|
 Error Recovery           | Intelligent retry mechanisms for network issues.  | Fails on the first error|
 
-## 🧠 AI Text Enhancement
+## AI Text Enhancement
 
-Core Capability         |  ✅ News Fetch AI's Approach                        | ❌ Basic AI Paraphrasing Tools|
+Core Capability         |  News Fetch AI's Approach                        | Basic AI Paraphrasing Tools|
 -------------------------|-------------------------------------------------------|-----------------------------|
 AI Model                 | Uses a powerful, custom-tuned model (Groq's DeepSeek). | Often relies on generic,less performant.|
 Language Support         | Optimized for high-quality, fluent Hindi paraphrasing.| Struggles with nuance and context in Hindi.|
@@ -34,7 +34,7 @@ Context Preservation     | Maintains the original meaning and tone of the articl
 Efficiency & Speed       | Utilizes Groq's high-speed inference for fast results. | Slower processing times due to less optimized hardware.|
 
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ai-news-fetcher/
@@ -49,13 +49,13 @@ ai-news-fetcher/
 └── {city}_new_leads.csv_regenerated.csv
 ```
 
-## 🛠️ Requirements
+## Requirements
 
 - Python 3.8+
 - Chrome Browser
 - Groq API Key
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -99,7 +99,7 @@ Go to Groq website 'GroqCloud' and create a free account and get your API key
 GROQ_API_KEY=your_groq_api_key_here
 ```
 
-## 📋 Requirements.txt
+## Requirements.txt
 
 ```txt
 selenium==4.15.2
@@ -113,7 +113,7 @@ random
 re
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Run the Application
 
@@ -157,7 +157,7 @@ Enter the city name: kanpur
 Enter the state the city belongs to: uttar-pradesh
 ```
 
-## 🔧 How It Works
+## How It Works
 
 ### 1. Web Scraping
 - Uses Selenium WebDriver with Chrome
@@ -178,7 +178,7 @@ Enter the state the city belongs to: uttar-pradesh
 - `{city}_new_leads.csv`: Original scraped data
 - `{city}_new_leads.csv_regenerated.csv`: AI-enhanced content
 
-## 🎯 Key Components
+## Key Components
 
 ### Main Application (`main.py`)
 - User interface and flow control
@@ -200,29 +200,29 @@ Enter the state the city belongs to: uttar-pradesh
 - Response cleaning and formatting
 - Batch processing of regenerated content
 
-## 🌟 What Makes This Project Great
+## What Makes This Project Great
 
 ### 🔍 Smart Data Extraction
 - **Robust Selectors**: Uses reliable CSS selectors for consistent data extraction
 - **Error Recovery**: Handles missing elements and network issues gracefully
 - **Dynamic Content**: Waits for content to load before scraping
 
-### 🧠 AI-Powered Enhancement
+### AI-Powered Enhancement
 - **Content Quality**: Improves readability and removes noise from scraped text
 - **Language Preservation**: Maintains Hindi language context and meaning
 - **Scalable Processing**: Processes large datasets efficiently
 
-### 📊 Data Management
+### Data Management
 - **Duplicate Prevention**: Intelligent deduplication prevents data redundancy
 - **Structured Output**: Clean CSV format for easy analysis and integration
 - **Incremental Updates**: Appends new data without overwriting existing records
 
-### 🛡️ Production Ready
+### Production Ready
 - **Environment Variables**: Secure API key management
 - **Error Handling**: Comprehensive exception handling and logging
 - **Resource Management**: Proper cleanup of browser resources
 
-## 🔧 Configuration
+## Configuration
 
 ### Supported Newspapers
 - **Dainik Bhaskar**: `https://www.bhaskar.com/local/{state}/{city}`
@@ -235,7 +235,7 @@ options.add_argument("--incognito")
 options.add_experimental_option("detach", True)
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -262,7 +262,7 @@ for i, item in enumerate(items):
     print(f"Processing item {i+1}")
 ```
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Support for more Indian newspapers
 - [ ] Real-time news monitoring
@@ -272,7 +272,7 @@ for i, item in enumerate(items):
 - [ ] Docker containerization
 - [ ] Multi-language support
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
@@ -280,15 +280,15 @@ for i, item in enumerate(items):
 4. Push to branch: `git push origin feature-name`
 5. Submit a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is for educational and research purposes. Please respect the terms of service of the websites you scrape and ensure compliance with applicable laws and regulations.
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 
